@@ -1,0 +1,9 @@
+# Replacement rules for word_hybrid_test.py
+# Same format as data/replace.txt — literal: prefix, pattern -> replacement
+# These are idioms and fixed phrases that the hybrid test should pre-resolve
+# before running its disambiguation logic.
+
+literal:on a tear -> on a tair
+literal:tear gas -> teer gas
+literal:gaping tear -> gaping tair
+literal:heads bowed -> heads boughed
